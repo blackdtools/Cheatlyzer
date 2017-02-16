@@ -70,10 +70,10 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 DisableDirPage=no
-LicenseFile=C:\Cheatlyzer\Cheatlyzer\readme.rtf
-OutputDir=C:\Cheatlyzer\Cheatlyzer\_installer
+LicenseFile=C:\Cheatlyzer\readme.rtf
+OutputDir=C:\Cheatlyzer\_installer
 OutputBaseFilename=cheatlyzer_installer_{#MyAppVersion}
-SetupIconFile=C:\Cheatlyzer\Cheatlyzer\cheatlyzer.ico
+SetupIconFile=C:\Cheatlyzer\cheatlyzer.ico
 Compression=lzma
 SolidCompression=yes
 
@@ -110,7 +110,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 0,6.1
 
 [Files]
-Source: "C:\Cheatlyzer\Cheatlyzer\bin\Release\Cheatlyzer.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Cheatlyzer\bin\Release\Cheatlyzer.exe"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
