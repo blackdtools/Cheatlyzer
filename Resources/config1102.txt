@@ -1,0 +1,69 @@
+[Memory]
+; [[[[[[[[[[[[[[[[[[[[[[[[[[[
+; BEGIN - MEMORY PATHS
+version=11.02
+tibiamainname=client
+tibiaclassname=Qt5QWindowOwnDCIcon
+tibiatitle=Tibia
+tibiamainname_updater=tibia
+tibiaclassname_updater=Qt5QWindowIcon
+tibiatitle_updater=Tibia
+adrSelectedItem_height="Qt5Widgets.dll" + 00401DC4 > 70 > 4 > a8
+
+adrGameRect_Width_Double="Qt5Core.dll" + 004555C8 > 8 > 10C > 18 > 4 > 74 > 4 > 88
+
+adrChatLog_tabStruct="Qt5Core.dll" + 4555C8 > 8 > 118
+SELECTEDCHANNEL_FirstLineText_Unicode="Qt5Core.dll " + 004555C8 > 8 > 118 > 64 > 18 > 0 > 8 > 10
+
+adrSkills_CollectionStart="Qt5Core.dll" + 004555C8 > 8 > 124 > 60 > c4
+adrSkills_CollectionCount="Qt5Core.dll" + 004555C8 > 8 > 124 > 60 > c8
+adrMyHP="Qt5Core.dll" + 004555C8 > 8 > 124 > 60 > 18
+adrMyMaxHP="Qt5Core.dll" + 004555C8 > 8 > 124 > 60 > 1A
+adrCapacity="Qt5Core.dll" + 004555C8 > 8 > 124 > 60 > 1C
+adrMaxCapacity="Qt5Core.dll" + 004555C8 > 8 > 124 > 60 > 20
+adrExperience="Qt5Core.dll" + 004555C8 > 8 > 124 > 60 > 28
+adrLevel="Qt5Core.dll" + 004555C8 > 8 > 124 > 60 > 30
+adrMyMana="Qt5Core.dll" + 004555C8 > 8 > 124 > 60 > 60
+adrMyMaxMana="Qt5Core.dll" + 004555C8 > 8 > 124 > 60 > 62
+adrMySoul="Qt5Core.dll" + 004555C8 > 8 > 124 > 60 > 64
+
+adrXPos="Qt5Core.dll" + 004555C8 > 8 > 134 > 24 > 18
+adrYPos="Qt5Core.dll" + 004555C8 > 8 > 134 > 24 > 1C
+adrZPos="Qt5Core.dll" + 004555C8 > 8 > 134 > 24 > 20
+adrMiniMapRect_Y_Double="Qt5Core.dll" + 004555C8 > 8 > 134 > 24 > 8 > 4 > 90
+adrMiniMapRect_Width_Double="Qt5Core.dll" + 004555C8 > 8 > 134 > 24 > 8 > 4 > 98
+adrMiniMapRect_Height_Double="Qt5Core.dll" + 004555C8 > 8 > 134 > 24 > 8 > 4 > A0
+adrMiniMapDisplay_MinX="Qt5Core.dll" + 004555C8 > 8 > 134 > 24 > 2c > 20
+adrMiniMapDisplay_MinY="Qt5Core.dll" + 004555C8 > 8 > 134 > 24 > 2c > 24
+adrMiniMapDisplay_Z="Qt5Core.dll" + 004555C8 > 8 > 134 > 24 > 2c > 28
+adrMiniMapDisplay_SizeX="Qt5Core.dll" + 004555C8 > 8 > 134 > 24 > 2c > 30
+adrMiniMapDisplay_SizeY="Qt5Core.dll" + 004555C8 > 8 > 134 > 24 > 2c > 34
+adrMiniMapDisplay_Zoom_PointSize1_Float="Qt5Core.dll" + 004555C8 > 8 > 134 > 24 > 2c > 48
+adrStatus_CountAndListStart="Qt5Core.dll" + 4555C8 > 8 > 134 > 28 > 68 > C
+
+adrServerList_CollectionStart="Qt5Core.dll" + 4555C8 > 8 > 168 > 54 > 18 > 2c
+adrServerList_CollectionCount="Qt5Core.dll" + 4555C8 > 8 > 168 > 54 > 18 > 30
+
+adrBattlelist_CollectionStart="Qt5Core.dll" + 004555C8 > 8 > 1E4 > 104 > 14
+adrBattlelist_CollectionCount="Qt5Core.dll" + 004555C8 > 8 > 1E4 > 104 > 18
+adrNewRedSquare="Qt5Core.dll" + 004555C8 > 8 > 1E4 > 104 > 28
+adrConnectionKey="Qt5Core.dll" + 004555C8 > 8 > 1E4 > 330 > 90 > C8
+adrSelectedCharName="Qt5Core.dll" + 004555C8 > 8 > 1E4 > 330 > 9C
+adrSelectedCharName_Text="Qt5Core.dll" + 004555C8 > 8 > 1E4 > 330 > 9C > 10
+
+adrSpeakCurrentSendTxt="Qt5Core.dll" + 004555C8 > 8 > 1F4 > 24 > 4 > E8 > 4 > 134
+adrSpeakCursorPosition="Qt5Core.dll" + 004555C8 > 8 > 1F4 > 24 > 4 > E8 > 4 > 1A0
+
+adrSelectedCharName_afterCharList="Qt5Core.dll" + 004555C8 > 8 > 328 > 18 > 60 > 0 
+adrSelectedCharName_afterCharList_Text="Qt5Core.dll" + 004555C8 > 8 > 328 > 18 > 60 > 0 > 10
+adrSelectedServerURL_afterCharList="Qt5Core.dll" + 004555C8 > 8 > 328 > 18 > 60 > 4
+adrSelectedServerURL_afterCharList_Text="Qt5Core.dll" + 004555C8 > 8 > 328 > 18 > 60 > 4 > 10
+adrSelectedServerPORT_afterCharList="Qt5Core.dll" + 004555C8 > 8 > 328 > 18 > 60 > 8
+adrSelectedServerNAME_afterCharList="Qt5Core.dll" + 004555C8 > 8 > 328 > 18 > 60 > C
+adrSelectedServerNAME_afterCharList_Text="Qt5Core.dll" + 004555C8 > 8 > 328 > 18 > 60 > C > 10
+
+offSetSquare_ARGB_8bytes=&H84
+
+
+; ]]]]]]]]]]]]]]]]]]]]]]]]]]]
+; END - MEMORY PATHS

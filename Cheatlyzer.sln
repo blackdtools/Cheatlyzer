@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Basic Express 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Cheatlyzer", "Cheatlyzer.vbproj", "{474AA6CE-3915-4E0B-889C-B05EFA09105D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{474AA6CE-3915-4E0B-889C-B05EFA09105D}.Debug|x86.ActiveCfg = Debug|x86
+		{474AA6CE-3915-4E0B-889C-B05EFA09105D}.Debug|x86.Build.0 = Debug|x86
+		{474AA6CE-3915-4E0B-889C-B05EFA09105D}.Release|x86.ActiveCfg = Release|x86
+		{474AA6CE-3915-4E0B-889C-B05EFA09105D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+[Global]
+AddressFile=config1110.ini
+timerMS=100
+totalFriends=0
+settingsVersion=127
