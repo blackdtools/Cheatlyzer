@@ -8,8 +8,8 @@ Public Class frmMain
     Dim mouseY As Integer
     Public currentCharCount As Integer = 0
     Public pausedAll As Boolean = False
-    Public currentSettingsVersion As Integer = 127
-    Public highestConfig As String = "config1110.ini"
+    Public currentSettingsVersion As Integer = 128
+    Public highestConfig As String = "config1111.ini"
     Public timerActive As Boolean = False
 
     Public Sub ReadSettings()
@@ -147,6 +147,11 @@ Public Class frmMain
         expectedDefault = getMyCurrentAppPath() & "\config1110.ini"
         If forceOverwrite Or (File.Exists(expectedDefault) = False) Then
             expectedDefault_content = My.Resources.config1110
+            My.Computer.FileSystem.WriteAllText(expectedDefault, expectedDefault_content, False, System.Text.ASCIIEncoding.ASCII)
+        End If
+        expectedDefault = getMyCurrentAppPath() & "\config1111.ini"
+        If forceOverwrite Or (File.Exists(expectedDefault) = False) Then
+            expectedDefault_content = My.Resources.config1111
             My.Computer.FileSystem.WriteAllText(expectedDefault, expectedDefault_content, False, System.Text.ASCIIEncoding.ASCII)
         End If
         Me.TopMost = True

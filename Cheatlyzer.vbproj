@@ -197,6 +197,7 @@
   <ItemGroup>
     <Content Include="cheatlyzer.ico" />
     <Content Include="Resources\Alarm.wav" />
+    <None Include="Resources\config1111.txt" />
     <None Include="Resources\config1110.txt" />
     <None Include="Resources\config1104.txt" />
     <None Include="Resources\config1103.txt" />

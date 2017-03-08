@@ -201,7 +201,7 @@ Namespace My.Resources
         '''  Looks up a localized string similar to [Memory]
         '''; [[[[[[[[[[[[[[[[[[[[[[[[[[[
         '''; BEGIN - MEMORY PATHS
-        '''version=11.04
+        '''version=11.10
         '''tibiamainname=client
         '''tibiaclassname=Qt5QWindowOwnDCIcon
         '''tibiatitle=Tibia
@@ -211,13 +211,37 @@ Namespace My.Resources
         '''adrSelectedItem_height=&quot;Qt5Widgets.dll&quot; + 00401DC4 &gt; 70 &gt; 4 &gt; a8
         '''
         '''adrGameRect_Width_Double=&quot;Qt5Core.dll&quot; + 004555C8 &gt; 8 &gt; 10C &gt; 18 &gt; 4 &gt; 74 &gt; 4 &gt; 88
+        '''adrSidebar_Count=&quot;Qt5Core.dll&quot; + 004555C8 &gt; 8 &gt; 10C &gt; 18 &gt; 4 &gt; F8
         '''
-        '''adrChatLog_tabStruct=&quot;Qt5Core.dll&quot; + 4555C8 &gt; 8 &gt; 118
-        '''SELECTEDCHANNEL_FirstLineText_Unicode=&quot;Qt5Core.dll &quot;  [rest of string was truncated]&quot;;.
+        '''adrChatLog_tabStruct=&quot;Qt5Core.dll&quot; + 4555 [rest of string was truncated]&quot;;.
         '''</summary>
         Friend ReadOnly Property config1110() As String
             Get
                 Return ResourceManager.GetString("config1110", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to [Memory]
+        '''; [[[[[[[[[[[[[[[[[[[[[[[[[[[
+        '''; BEGIN - MEMORY PATHS
+        '''version=11.11
+        '''tibiamainname=client
+        '''tibiaclassname=Qt5QWindowOwnDCIcon
+        '''tibiatitle=Tibia
+        '''tibiamainname_updater=tibia
+        '''tibiaclassname_updater=Qt5QWindowIcon
+        '''tibiatitle_updater=Tibia
+        '''adrSelectedItem_height=&quot;Qt5Widgets.dll&quot; + 00401DC4 &gt; 70 &gt; 4 &gt; a8
+        '''
+        '''adrGameRect_Width_Double=&quot;Qt5Core.dll&quot; + 004555C8 &gt; 8 &gt; 10C &gt; 18 &gt; 4 &gt; 74 &gt; 4 &gt; 88
+        '''adrSidebar_Count=&quot;Qt5Core.dll&quot; + 004555C8 &gt; 8 &gt; 10C &gt; 18 &gt; 4 &gt; F8
+        '''
+        '''adrChatLog_tabStruct=&quot;Qt5Core.dll&quot; + 4555 [rest of string was truncated]&quot;;.
+        '''</summary>
+        Friend ReadOnly Property config1111() As String
+            Get
+                Return ResourceManager.GetString("config1111", resourceCulture)
             End Get
         End Property
         
@@ -233,10 +257,10 @@ Namespace My.Resources
         
         '''<summary>
         '''  Looks up a localized string similar to [Global]
-        '''AddressFile=config1104.ini
+        '''AddressFile=config1110.ini
         '''timerMS=100
         '''totalFriends=0
-        '''settingsVersion=124.
+        '''settingsVersion=127.
         '''</summary>
         Friend ReadOnly Property settings() As String
             Get
